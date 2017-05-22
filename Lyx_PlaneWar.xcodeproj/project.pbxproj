@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C208FC301ED397A800E79B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC2F1ED397A800E79B09 /* main.m */; };
+		C208FC331ED397A800E79B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC321ED397A800E79B09 /* AppDelegate.m */; };
+		C208FC361ED397A800E79B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC351ED397A800E79B09 /* ViewController.m */; };
+		C208FC391ED397A800E79B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208FC371ED397A800E79B09 /* Main.storyboard */; };
+		C208FC3B1ED397A800E79B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C208FC3A1ED397A800E79B09 /* Assets.xcassets */; };
+		C208FC3E1ED397A800E79B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208FC3C1ED397A800E79B09 /* LaunchScreen.storyboard */; };
+		C208FC491ED397A900E79B09 /* Lyx_PlaneWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC481ED397A900E79B09 /* Lyx_PlaneWarTests.m */; };
+		C208FC541ED397A900E79B09 /* Lyx_PlaneWarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC531ED397A900E79B09 /* Lyx_PlaneWarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C208FC451ED397A900E79B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C208FC231ED397A800E79B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C208FC2A1ED397A800E79B09;
+			remoteInfo = Lyx_PlaneWar;
+		};
+		C208FC501ED397A900E79B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C208FC231ED397A800E79B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C208FC2A1ED397A800E79B09;
+			remoteInfo = Lyx_PlaneWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C208FC2B1ED397A800E79B09 /* Lyx_PlaneWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyx_PlaneWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C208FC2F1ED397A800E79B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C208FC311ED397A800E79B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C208FC321ED397A800E79B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C208FC341ED397A800E79B09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C208FC351ED397A800E79B09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C208FC381ED397A800E79B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C208FC3A1ED397A800E79B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C208FC3D1ED397A800E79B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C208FC3F1ED397A800E79B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C208FC441ED397A900E79B09 /* Lyx_PlaneWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lyx_PlaneWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C208FC481ED397A900E79B09 /* Lyx_PlaneWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyx_PlaneWarTests.m; sourceTree = "<group>"; };
+		C208FC4A1ED397A900E79B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C208FC4F1ED397A900E79B09 /* Lyx_PlaneWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lyx_PlaneWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C208FC531ED397A900E79B09 /* Lyx_PlaneWarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyx_PlaneWarUITests.m; sourceTree = "<group>"; };
+		C208FC551ED397A900E79B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C208FC281ED397A800E79B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C208FC411ED397A900E79B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C208FC4C1ED397A900E79B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C208FC221ED397A800E79B09 = {
+			isa = PBXGroup;
+			children = (
+				C208FC2D1ED397A800E79B09 /* Lyx_PlaneWar */,
+				C208FC471ED397A900E79B09 /* Lyx_PlaneWarTests */,
+				C208FC521ED397A900E79B09 /* Lyx_PlaneWarUITests */,
+				C208FC2C1ED397A800E79B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C208FC2C1ED397A800E79B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC2B1ED397A800E79B09 /* Lyx_PlaneWar.app */,
+				C208FC441ED397A900E79B09 /* Lyx_PlaneWarTests.xctest */,
+				C208FC4F1ED397A900E79B09 /* Lyx_PlaneWarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C208FC2D1ED397A800E79B09 /* Lyx_PlaneWar */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC311ED397A800E79B09 /* AppDelegate.h */,
+				C208FC321ED397A800E79B09 /* AppDelegate.m */,
+				C208FC341ED397A800E79B09 /* ViewController.h */,
+				C208FC351ED397A800E79B09 /* ViewController.m */,
+				C208FC371ED397A800E79B09 /* Main.storyboard */,
+				C208FC3A1ED397A800E79B09 /* Assets.xcassets */,
+				C208FC3C1ED397A800E79B09 /* LaunchScreen.storyboard */,
+				C208FC3F1ED397A800E79B09 /* Info.plist */,
+				C208FC2E1ED397A800E79B09 /* Supporting Files */,
+			);
+			path = Lyx_PlaneWar;
+			sourceTree = "<group>";
+		};
+		C208FC2E1ED397A800E79B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC2F1ED397A800E79B09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C208FC471ED397A900E79B09 /* Lyx_PlaneWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC481ED397A900E79B09 /* Lyx_PlaneWarTests.m */,
+				C208FC4A1ED397A900E79B09 /* Info.plist */,
+			);
+			path = Lyx_PlaneWarTests;
+			sourceTree = "<group>";
+		};
+		C208FC521ED397A900E79B09 /* Lyx_PlaneWarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC531ED397A900E79B09 /* Lyx_PlaneWarUITests.m */,
+				C208FC551ED397A900E79B09 /* Info.plist */,
+			);
+			path = Lyx_PlaneWarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C208FC2A1ED397A800E79B09 /* Lyx_PlaneWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C208FC581ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWar" */;
+			buildPhases = (
+				C208FC271ED397A800E79B09 /* Sources */,
+				C208FC281ED397A800E79B09 /* Frameworks */,
+				C208FC291ED397A800E79B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyx_PlaneWar;
+			productName = Lyx_PlaneWar;
+			productReference = C208FC2B1ED397A800E79B09 /* Lyx_PlaneWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C208FC431ED397A900E79B09 /* Lyx_PlaneWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C208FC5B1ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWarTests" */;
+			buildPhases = (
+				C208FC401ED397A900E79B09 /* Sources */,
+				C208FC411ED397A900E79B09 /* Frameworks */,
+				C208FC421ED397A900E79B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C208FC461ED397A900E79B09 /* PBXTargetDependency */,
+			);
+			name = Lyx_PlaneWarTests;
+			productName = Lyx_PlaneWarTests;
+			productReference = C208FC441ED397A900E79B09 /* Lyx_PlaneWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C208FC4E1ED397A900E79B09 /* Lyx_PlaneWarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C208FC5E1ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWarUITests" */;
+			buildPhases = (
+				C208FC4B1ED397A900E79B09 /* Sources */,
+				C208FC4C1ED397A900E79B09 /* Frameworks */,
+				C208FC4D1ED397A900E79B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C208FC511ED397A900E79B09 /* PBXTargetDependency */,
+			);
+			name = Lyx_PlaneWarUITests;
+			productName = Lyx_PlaneWarUITests;
+			productReference = C208FC4F1ED397A900E79B09 /* Lyx_PlaneWarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C208FC231ED397A800E79B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lyx;
+				TargetAttributes = {
+					C208FC2A1ED397A800E79B09 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C208FC431ED397A900E79B09 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C208FC2A1ED397A800E79B09;
+					};
+					C208FC4E1ED397A900E79B09 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C208FC2A1ED397A800E79B09;
+					};
+				};
+			};
+			buildConfigurationList = C208FC261ED397A800E79B09 /* Build configuration list for PBXProject "Lyx_PlaneWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C208FC221ED397A800E79B09;
+			productRefGroup = C208FC2C1ED397A800E79B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C208FC2A1ED397A800E79B09 /* Lyx_PlaneWar */,
+				C208FC431ED397A900E79B09 /* Lyx_PlaneWarTests */,
+				C208FC4E1ED397A900E79B09 /* Lyx_PlaneWarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C208FC291ED397A800E79B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C208FC3E1ED397A800E79B09 /* LaunchScreen.storyboard in Resources */,
+				C208FC3B1ED397A800E79B09 /* Assets.xcassets in Resources */,
+				C208FC391ED397A800E79B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C208FC421ED397A900E79B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C208FC4D1ED397A900E79B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C208FC271ED397A800E79B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C208FC361ED397A800E79B09 /* ViewController.m in Sources */,
+				C208FC331ED397A800E79B09 /* AppDelegate.m in Sources */,
+				C208FC301ED397A800E79B09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C208FC401ED397A900E79B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C208FC491ED397A900E79B09 /* Lyx_PlaneWarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C208FC4B1ED397A900E79B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C208FC541ED397A900E79B09 /* Lyx_PlaneWarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C208FC461ED397A900E79B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C208FC2A1ED397A800E79B09 /* Lyx_PlaneWar */;
+			targetProxy = C208FC451ED397A900E79B09 /* PBXContainerItemProxy */;
+		};
+		C208FC511ED397A900E79B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C208FC2A1ED397A800E79B09 /* Lyx_PlaneWar */;
+			targetProxy = C208FC501ED397A900E79B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C208FC371ED397A800E79B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C208FC381ED397A800E79B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C208FC3C1ED397A800E79B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C208FC3D1ED397A800E79B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C208FC561ED397A900E79B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C208FC571ED397A900E79B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C208FC591ED397A900E79B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyx_PlaneWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C208FC5A1ED397A900E79B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyx_PlaneWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C208FC5C1ED397A900E79B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lyx_PlaneWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyx_PlaneWar.app/Lyx_PlaneWar";
+			};
+			name = Debug;
+		};
+		C208FC5D1ED397A900E79B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lyx_PlaneWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyx_PlaneWar.app/Lyx_PlaneWar";
+			};
+			name = Release;
+		};
+		C208FC5F1ED397A900E79B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lyx_PlaneWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lyx_PlaneWar;
+			};
+			name = Debug;
+		};
+		C208FC601ED397A900E79B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lyx_PlaneWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lyx_PlaneWar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C208FC261ED397A800E79B09 /* Build configuration list for PBXProject "Lyx_PlaneWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C208FC561ED397A900E79B09 /* Debug */,
+				C208FC571ED397A900E79B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C208FC581ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C208FC591ED397A900E79B09 /* Debug */,
+				C208FC5A1ED397A900E79B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C208FC5B1ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C208FC5C1ED397A900E79B09 /* Debug */,
+				C208FC5D1ED397A900E79B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C208FC5E1ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C208FC5F1ED397A900E79B09 /* Debug */,
+				C208FC601ED397A900E79B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C208FC231ED397A800E79B09 /* Project object */;
+}
