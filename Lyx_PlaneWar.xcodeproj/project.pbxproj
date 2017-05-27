@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16529576301E8BA1B92C543C /* libPods-Lyx_PlaneWar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D1CFE9D15F000B16B0C88E /* libPods-Lyx_PlaneWar.a */; };
 		C208FC301ED397A800E79B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC2F1ED397A800E79B09 /* main.m */; };
 		C208FC331ED397A800E79B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC321ED397A800E79B09 /* AppDelegate.m */; };
 		C208FC361ED397A800E79B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC351ED397A800E79B09 /* ViewController.m */; };
@@ -15,6 +16,24 @@
 		C208FC3E1ED397A800E79B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208FC3C1ED397A800E79B09 /* LaunchScreen.storyboard */; };
 		C208FC491ED397A900E79B09 /* Lyx_PlaneWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC481ED397A900E79B09 /* Lyx_PlaneWarTests.m */; };
 		C208FC541ED397A900E79B09 /* Lyx_PlaneWarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC531ED397A900E79B09 /* Lyx_PlaneWarUITests.m */; };
+		C208FC751ED39A9000E79B09 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC631ED39A9000E79B09 /* bg.png */; };
+		C208FC761ED39A9000E79B09 /* bg_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC641ED39A9000E79B09 /* bg_picture.png */; };
+		C208FC771ED39A9000E79B09 /* bz1.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC651ED39A9000E79B09 /* bz1.png */; };
+		C208FC781ED39A9000E79B09 /* bz2.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC661ED39A9000E79B09 /* bz2.png */; };
+		C208FC791ED39A9000E79B09 /* bz3.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC671ED39A9000E79B09 /* bz3.png */; };
+		C208FC7A1ED39A9000E79B09 /* bz4.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC681ED39A9000E79B09 /* bz4.png */; };
+		C208FC7B1ED39A9000E79B09 /* bz5.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC691ED39A9000E79B09 /* bz5.png */; };
+		C208FC7C1ED39A9000E79B09 /* diji.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC6A1ED39A9000E79B09 /* diji.png */; };
+		C208FC7D1ED39A9000E79B09 /* plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC6B1ED39A9000E79B09 /* plane1.png */; };
+		C208FC7E1ED39A9000E79B09 /* plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC6C1ED39A9000E79B09 /* plane2.png */; };
+		C208FC7F1ED39A9000E79B09 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC6D1ED39A9000E79B09 /* start.png */; };
+		C208FC801ED39A9000E79B09 /* zidan.png in Resources */ = {isa = PBXBuildFile; fileRef = C208FC6E1ED39A9000E79B09 /* zidan.png */; };
+		C208FC831ED39ACC00E79B09 /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC821ED39ACC00E79B09 /* BulletView.m */; };
+		C208FC861ED39AFA00E79B09 /* EnemyPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC851ED39AFA00E79B09 /* EnemyPlaneView.m */; };
+		C208FC891ED39B0A00E79B09 /* MyPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC881ED39B0A00E79B09 /* MyPlaneView.m */; };
+		C208FC8C1ED39B2E00E79B09 /* StrategyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC8B1ED39B2E00E79B09 /* StrategyView.m */; };
+		C208FC8F1ED39B5300E79B09 /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC8E1ED39B5300E79B09 /* CustomBtn.m */; };
+		C208FC921ED39EDA00E79B09 /* StrategyExpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C208FC911ED39EDA00E79B09 /* StrategyExpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BB70C3E619ABB64892C950E /* Pods-Lyx_PlaneWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyx_PlaneWar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lyx_PlaneWar/Pods-Lyx_PlaneWar.debug.xcconfig"; sourceTree = "<group>"; };
+		53D1CFE9D15F000B16B0C88E /* libPods-Lyx_PlaneWar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lyx_PlaneWar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFC85F6B6A4D4182A3987C9 /* Pods-Lyx_PlaneWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyx_PlaneWar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lyx_PlaneWar/Pods-Lyx_PlaneWar.release.xcconfig"; sourceTree = "<group>"; };
 		C208FC2B1ED397A800E79B09 /* Lyx_PlaneWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyx_PlaneWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C208FC2F1ED397A800E79B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C208FC311ED397A800E79B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,30 @@
 		C208FC4F1ED397A900E79B09 /* Lyx_PlaneWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lyx_PlaneWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C208FC531ED397A900E79B09 /* Lyx_PlaneWarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lyx_PlaneWarUITests.m; sourceTree = "<group>"; };
 		C208FC551ED397A900E79B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C208FC631ED39A9000E79B09 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		C208FC641ED39A9000E79B09 /* bg_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_picture.png; sourceTree = "<group>"; };
+		C208FC651ED39A9000E79B09 /* bz1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bz1.png; sourceTree = "<group>"; };
+		C208FC661ED39A9000E79B09 /* bz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bz2.png; sourceTree = "<group>"; };
+		C208FC671ED39A9000E79B09 /* bz3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bz3.png; sourceTree = "<group>"; };
+		C208FC681ED39A9000E79B09 /* bz4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bz4.png; sourceTree = "<group>"; };
+		C208FC691ED39A9000E79B09 /* bz5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bz5.png; sourceTree = "<group>"; };
+		C208FC6A1ED39A9000E79B09 /* diji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diji.png; sourceTree = "<group>"; };
+		C208FC6B1ED39A9000E79B09 /* plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane1.png; sourceTree = "<group>"; };
+		C208FC6C1ED39A9000E79B09 /* plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane2.png; sourceTree = "<group>"; };
+		C208FC6D1ED39A9000E79B09 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		C208FC6E1ED39A9000E79B09 /* zidan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidan.png; sourceTree = "<group>"; };
+		C208FC811ED39ACC00E79B09 /* BulletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		C208FC821ED39ACC00E79B09 /* BulletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		C208FC841ED39AFA00E79B09 /* EnemyPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyPlaneView.h; sourceTree = "<group>"; };
+		C208FC851ED39AFA00E79B09 /* EnemyPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyPlaneView.m; sourceTree = "<group>"; };
+		C208FC871ED39B0A00E79B09 /* MyPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlaneView.h; sourceTree = "<group>"; };
+		C208FC881ED39B0A00E79B09 /* MyPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlaneView.m; sourceTree = "<group>"; };
+		C208FC8A1ED39B2E00E79B09 /* StrategyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyView.h; sourceTree = "<group>"; };
+		C208FC8B1ED39B2E00E79B09 /* StrategyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyView.m; sourceTree = "<group>"; };
+		C208FC8D1ED39B5300E79B09 /* CustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
+		C208FC8E1ED39B5300E79B09 /* CustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
+		C208FC901ED39EDA00E79B09 /* StrategyExpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyExpView.h; sourceTree = "<group>"; };
+		C208FC911ED39EDA00E79B09 /* StrategyExpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyExpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16529576301E8BA1B92C543C /* libPods-Lyx_PlaneWar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CBFBBC46C6A8DA0E0656FA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB70C3E619ABB64892C950E /* Pods-Lyx_PlaneWar.debug.xcconfig */,
+				5AFC85F6B6A4D4182A3987C9 /* Pods-Lyx_PlaneWar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C208FC221ED397A800E79B09 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				C208FC471ED397A900E79B09 /* Lyx_PlaneWarTests */,
 				C208FC521ED397A900E79B09 /* Lyx_PlaneWarUITests */,
 				C208FC2C1ED397A800E79B09 /* Products */,
+				8CBFBBC46C6A8DA0E0656FA9 /* Pods */,
+				EFF90792F0CBE5E15AF0C797 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +159,8 @@
 		C208FC2D1ED397A800E79B09 /* Lyx_PlaneWar */ = {
 			isa = PBXGroup;
 			children = (
+				C208FC621ED39A9000E79B09 /* Source */,
+				C208FC6F1ED39A9000E79B09 /* View */,
 				C208FC311ED397A800E79B09 /* AppDelegate.h */,
 				C208FC321ED397A800E79B09 /* AppDelegate.m */,
 				C208FC341ED397A800E79B09 /* ViewController.h */,
@@ -140,6 +200,92 @@
 			path = Lyx_PlaneWarUITests;
 			sourceTree = "<group>";
 		};
+		C208FC621ED39A9000E79B09 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC631ED39A9000E79B09 /* bg.png */,
+				C208FC641ED39A9000E79B09 /* bg_picture.png */,
+				C208FC651ED39A9000E79B09 /* bz1.png */,
+				C208FC661ED39A9000E79B09 /* bz2.png */,
+				C208FC671ED39A9000E79B09 /* bz3.png */,
+				C208FC681ED39A9000E79B09 /* bz4.png */,
+				C208FC691ED39A9000E79B09 /* bz5.png */,
+				C208FC6A1ED39A9000E79B09 /* diji.png */,
+				C208FC6B1ED39A9000E79B09 /* plane1.png */,
+				C208FC6C1ED39A9000E79B09 /* plane2.png */,
+				C208FC6D1ED39A9000E79B09 /* start.png */,
+				C208FC6E1ED39A9000E79B09 /* zidan.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C208FC6F1ED39A9000E79B09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC701ED39A9000E79B09 /* BulletView */,
+				C208FC711ED39A9000E79B09 /* CustomBtn */,
+				C208FC721ED39A9000E79B09 /* EnemyPlaneView */,
+				C208FC731ED39A9000E79B09 /* MyPlaneView */,
+				C208FC741ED39A9000E79B09 /* StrategyView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C208FC701ED39A9000E79B09 /* BulletView */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC811ED39ACC00E79B09 /* BulletView.h */,
+				C208FC821ED39ACC00E79B09 /* BulletView.m */,
+			);
+			path = BulletView;
+			sourceTree = "<group>";
+		};
+		C208FC711ED39A9000E79B09 /* CustomBtn */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC8D1ED39B5300E79B09 /* CustomBtn.h */,
+				C208FC8E1ED39B5300E79B09 /* CustomBtn.m */,
+			);
+			path = CustomBtn;
+			sourceTree = "<group>";
+		};
+		C208FC721ED39A9000E79B09 /* EnemyPlaneView */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC841ED39AFA00E79B09 /* EnemyPlaneView.h */,
+				C208FC851ED39AFA00E79B09 /* EnemyPlaneView.m */,
+			);
+			path = EnemyPlaneView;
+			sourceTree = "<group>";
+		};
+		C208FC731ED39A9000E79B09 /* MyPlaneView */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC871ED39B0A00E79B09 /* MyPlaneView.h */,
+				C208FC881ED39B0A00E79B09 /* MyPlaneView.m */,
+			);
+			path = MyPlaneView;
+			sourceTree = "<group>";
+		};
+		C208FC741ED39A9000E79B09 /* StrategyView */ = {
+			isa = PBXGroup;
+			children = (
+				C208FC8A1ED39B2E00E79B09 /* StrategyView.h */,
+				C208FC8B1ED39B2E00E79B09 /* StrategyView.m */,
+				C208FC901ED39EDA00E79B09 /* StrategyExpView.h */,
+				C208FC911ED39EDA00E79B09 /* StrategyExpView.m */,
+			);
+			path = StrategyView;
+			sourceTree = "<group>";
+		};
+		EFF90792F0CBE5E15AF0C797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D1CFE9D15F000B16B0C88E /* libPods-Lyx_PlaneWar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C208FC581ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWar" */;
 			buildPhases = (
+				61F18F951D5479705AA95752 /* [CP] Check Pods Manifest.lock */,
 				C208FC271ED397A800E79B09 /* Sources */,
 				C208FC281ED397A800E79B09 /* Frameworks */,
 				C208FC291ED397A800E79B09 /* Resources */,
+				5385B4D083B113E03A7FD6B6 /* [CP] Embed Pods Frameworks */,
+				BA87BBBD825973DA47444091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +356,7 @@
 				TargetAttributes = {
 					C208FC2A1ED397A800E79B09 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 74BBX7X742;
 						ProvisioningStyle = Automatic;
 					};
 					C208FC431ED397A900E79B09 = {
@@ -246,9 +396,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C208FC7A1ED39A9000E79B09 /* bz4.png in Resources */,
+				C208FC7C1ED39A9000E79B09 /* diji.png in Resources */,
+				C208FC761ED39A9000E79B09 /* bg_picture.png in Resources */,
+				C208FC7E1ED39A9000E79B09 /* plane2.png in Resources */,
+				C208FC791ED39A9000E79B09 /* bz3.png in Resources */,
 				C208FC3E1ED397A800E79B09 /* LaunchScreen.storyboard in Resources */,
+				C208FC7F1ED39A9000E79B09 /* start.png in Resources */,
+				C208FC801ED39A9000E79B09 /* zidan.png in Resources */,
 				C208FC3B1ED397A800E79B09 /* Assets.xcassets in Resources */,
+				C208FC771ED39A9000E79B09 /* bz1.png in Resources */,
+				C208FC751ED39A9000E79B09 /* bg.png in Resources */,
+				C208FC7B1ED39A9000E79B09 /* bz5.png in Resources */,
 				C208FC391ED397A800E79B09 /* Main.storyboard in Resources */,
+				C208FC7D1ED39A9000E79B09 /* plane1.png in Resources */,
+				C208FC781ED39A9000E79B09 /* bz2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +430,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5385B4D083B113E03A7FD6B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lyx_PlaneWar/Pods-Lyx_PlaneWar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F18F951D5479705AA95752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA87BBBD825973DA47444091 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lyx_PlaneWar/Pods-Lyx_PlaneWar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C208FC271ED397A800E79B09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C208FC361ED397A800E79B09 /* ViewController.m in Sources */,
+				C208FC861ED39AFA00E79B09 /* EnemyPlaneView.m in Sources */,
 				C208FC331ED397A800E79B09 /* AppDelegate.m in Sources */,
+				C208FC831ED39ACC00E79B09 /* BulletView.m in Sources */,
 				C208FC301ED397A800E79B09 /* main.m in Sources */,
+				C208FC921ED39EDA00E79B09 /* StrategyExpView.m in Sources */,
+				C208FC8F1ED39B5300E79B09 /* CustomBtn.m in Sources */,
+				C208FC8C1ED39B2E00E79B09 /* StrategyView.m in Sources */,
+				C208FC891ED39B0A00E79B09 /* MyPlaneView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,23 +640,29 @@
 		};
 		C208FC591ED397A900E79B09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB70C3E619ABB64892C950E /* Pods-Lyx_PlaneWar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74BBX7X742;
 				INFOPLIST_FILE = Lyx_PlaneWar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		C208FC5A1ED397A900E79B09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFC85F6B6A4D4182A3987C9 /* Pods-Lyx_PlaneWar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74BBX7X742;
 				INFOPLIST_FILE = Lyx_PlaneWar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liaoyongxing.Lyx-PlaneWar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -509,6 +731,7 @@
 				C208FC5A1ED397A900E79B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C208FC5B1ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWarTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +740,7 @@
 				C208FC5D1ED397A900E79B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C208FC5E1ED397A900E79B09 /* Build configuration list for PBXNativeTarget "Lyx_PlaneWarUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +749,7 @@
 				C208FC601ED397A900E79B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
